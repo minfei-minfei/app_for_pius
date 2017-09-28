@@ -1,0 +1,59 @@
+body{
+    background: lightgray;
+}
+.navbar{
+    color: white;
+}
+.navbar .glyphicon{
+    color: white;
+}
+/*页头*/
+#topic-header{
+    background: url(../img/topic_header_bg.jpg) no-repeat center;
+    background-size: cover;
+    color: white;
+    padding: 50px 0 30px 0;
+}
+#topic-header .media .media-object{
+    /*margin-top: 10px;*/
+    width: 100px;
+    height: 100px;
+}
+/*话题评论*/
+.article{
+    background: white;
+    margin: 10px 0;
+}
+.article .row{
+    margin: 0;
+}
+.article .col-xs-4{
+    padding: 2px;
+}
+.article .article-header{
+    margin-bottom: 0;
+}
+.article .article-content{
+    margin: 0;
+    color: #333;
+}
+.article .publisher{
+    width: 25px;
+    border-radius: 50%;
+}
+.article .social-contact{
+    padding-bottom: 10px;
+    text-align: center;
+}
+/*评论框*/
+#comment-box{
+    width: 100%;
+    background: lightgray;
+    position: fixed;
+    bottom: 0;
+    display: none;
+}
+#comment-box input{
+    display: inline-block;
+    width: 80%;
+}

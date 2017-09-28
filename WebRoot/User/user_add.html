@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>新建联系人</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../css/common.css"/>
+    <link rel="stylesheet" href="../css/user_add.css"/>
+
+</head>
+<body>
+<form id="user-add-form" role="form" action="user_addInsert.jsp" method="post">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="navbar-header">
+            <a href="javascript:;" class="navbar-brand glyphicon glyphicon-chevron-left"></a>
+        </div>
+    </nav>
+    <div id="upload-picture">
+        <img id="click" src="../img/old_portrait_default.png" alt="上传照片" class="center-block" />
+        <a href="javascript:;" class="file">选择文件
+            <input id="upload" type="file" accept="image/*" multiple>
+        </a>
+    </div>
+
+    <ul class="list-group">
+        <li class="list-group-item">
+            <span class="glyphicon glyphicon-user"></span>
+            <input type="text" name="contactName" value="请填写称呼"/>
+        </li>
+        <li class="list-group-item">
+            <span class="glyphicon glyphicon-home"></span>
+            <input type="text" name="contactHome" value="请填写地址"/>
+        </li>
+        <li class="list-group-item">
+            <span class="glyphicon glyphicon-map-marker"></span>
+            <input type="text" name="contactAddress" value="请填写小区/医院"/>
+        </li>
+    </ul>
+    <p class="container">更多被护理人信息（选填）
+        <a href="javascript:;" data-toggle="collapse" data-target="#more" class="pull-right">收起</a>
+    </p>
+    <div id="more" class="collapse in">
+        <ul class="list-group">
+            <li class="list-group-item" id="sex">性别：
+                <label><input type="radio" name="contactSex" value="男"/>男</label>
+                <label><input type="radio" name="contactSex" value="女"/>女</label>
+            </li>
+            <li class="list-group-item">
+                <label>年龄：<input type="text" value="50" name="contactAge"/></label>
+            </li>
+            <li class="list-group-item">
+                <label>联系电话：<input type="text" value="+86" name="contactTel"/></label>
+            </li>
+            <li class="list-group-item body-health">
+                身体状况：
+                <span class="label label-default">自理</span>
+                <span class="label label-default">半自理</span>
+                <span class="label label-default">不能自理</span>
+            </li>
+            <li class="list-group-item">
+                备注：<textarea class="form-control" rows="3" name="contactNotes">老人护理需求，固定电话等</textarea>
+            </li>
+        </ul>
+    </div>
+    <button id="save" type="submit" class="btn btn-default btn-lg btn-block">保存</button>
+ </form>
+
+	<script src="../js/jquery-1.12.4.min.js"></script>
+	<script src="../js/jquery.cookie.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/common.js"></script>
+    <script src="../js/user_add.js"></script>
+</body>
+</html>

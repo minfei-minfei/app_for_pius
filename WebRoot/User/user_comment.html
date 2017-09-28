@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>用户评价</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../css/common.css"/>
+    <link rel="stylesheet" href="../css/user_comment.css"/>
+</head>
+<body>
+<nav class="navbar navbar-inverse" role="navigation">
+    <div class="navbar-header">
+        <a href="javascript:;" class="navbar-brand glyphicon glyphicon-chevron-left">用户评价</a>
+    </div>
+</nav>
+<div id="user_comment" class="container">
+    <ul id="user_scoring" class="list-inline">点击星星就能打分
+        <li class="star"></li>
+        <li class="star"></li>
+        <li class="star"></li>
+        <li class="star"></li>
+        <li class="star"></li>
+    </ul>
+    <textarea name="article" rows="4" class="form-control">请填写评价内容</textarea>
+    <button type="submit" class="btn btn-default btn-lg btn-block">提交评价</button>
+</div>
+<script src="../js/jquery-1.12.4.min.js"></script>
+<script src="../js/jquery.cookie.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/user_comment.js"></script>
+</body>
+</html>

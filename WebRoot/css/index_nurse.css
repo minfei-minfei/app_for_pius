@@ -1,0 +1,50 @@
+body{
+    padding: 90px 0 50px 0;
+    background: #f8f8f8;
+}
+.navbar{
+    margin: 0;
+}
+/*搜索*/
+#search{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    background: url(../img/css_sprite.png) no-repeat -180px -85px;
+}
+/*护工列表*/
+#nurse-list{
+    margin: 0;
+}
+#nurse-list .media{
+    padding: 5px 0;
+    background: white;
+    margin-top: 5px;
+}
+#nurse-list .media .media-object{
+    border-radius: 50%;
+}
+#nurse-list .media p{
+    /*溢出文本用省略号替代*/
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    /*-----------------*/
+    margin: 0;
+    font-size: 12px;
+}
+.star{
+    width: 120px;
+    height: 15px;
+    background: url(../img/star-matrix.gif) no-repeat;
+    text-align: right;
+}
+.distance{
+    font-size: 12px;
+    height: 16px;
+    max-width: 156px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

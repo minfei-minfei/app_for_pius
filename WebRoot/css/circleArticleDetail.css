@@ -1,0 +1,85 @@
+body{
+    padding-top: 50px;
+    background: lightgray;
+}
+/*文章主体*/
+.article{
+    background: white;
+    margin-bottom: 10px;
+}
+.article .row{
+    margin: 0;
+}
+.article .col-xs-4{
+    padding: 2px;
+}
+.article .article-header{
+    margin-bottom: 0;
+}
+.article .article-title{
+    margin-bottom: 0;
+    font-weight: bolder;
+}
+.article .article-content{
+    margin: 0;
+    color: #333;
+}
+.article .publisher{
+    width: 25px;
+    border-radius: 50%;
+}
+/*社交*/
+.article .social-contact{
+    padding: 0;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.social-contact>div{
+    float: left;
+    width: 33%;
+}
+.social-contact>div button{
+    border: none;
+    background: #fff;
+}
+.alert-danger{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 5%;
+    line-height: 5%;
+    display: none;
+}
+.social-contact>div button:active{
+    color: #337ab7;
+}
+/*文章评论*/
+.media-list{
+    margin-bottom: 0;
+}
+.article-comment{
+    padding-top: 10px;
+    margin-top: 0;
+    border-bottom: 1px solid lightgray;
+    background: white;
+}
+.article-comment .media-object{
+    width: 25px;
+    border-radius: 50%;
+}
+.article-comment .media-heading{
+    font-weight: bolder;
+}
+/*评论框*/
+#comment-box{
+    width: 100%;
+    background: lightgray;
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+    display: none;
+}
+#comment-box input{
+    display: inline-block;
+    width: 80%;
+}

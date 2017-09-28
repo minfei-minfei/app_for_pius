@@ -1,0 +1,51 @@
+.media p{
+    /*����ı���ʡ�Ժ����*/
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.media-bottom{
+    border-top: 1px solid lightgray;
+}
+#user-order-footer ul{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+#order-info{
+	position: relative;
+}
+#order-cancel{
+	position: absolute;
+	right: 5px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.tooltip{
+	z-index: 0;
+}
+
+#orderCancel .modal-dialog{
+	z-index: 1;
+}
+#orderCancel .modal-header{
+	border-bottom: 0;
+}
+#orderCancel .modal-footer{
+	border-top: 0;
+	text-align: center;
+}
+#orderCancel .modal-body{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+body{
+    background: lightgray;
+    padding: 50px 0;
+}
+.navbar{
+    margin: 0;
+}
+.jumbotron{
+    text-align: center;
+    background: url(../img/me_bg.jpg) no-repeat;
+    background-size: cover;
+}
+.jumbotron img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    /*display: block;
+    margin: 0 auto;*/
+}
+#me-page .list-group-item{
+    padding: 0;
+}
+#me-page .list-group-item a{
+    padding: 10px 15px;
+    display: block;
+    width: 100%;
+    height: 100%;
+}

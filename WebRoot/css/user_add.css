@@ -1,0 +1,68 @@
+#upload-picture{
+    width: 100%;
+    margin: 20px 0 10px 0;
+}
+#upload-picture img{
+    width: 60px;
+    height: 60px;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+a:focus,a:hover{
+    text-decoration: none;
+}
+#myAlert{
+    position: fixed;
+    width: 100%;
+    top: 50px;
+    z-index: 1;
+    display: none;
+}
+/*修改上传照片按钮*/
+.file {
+    position: relative;
+    display: inline-block;
+    background: #D0EEFF;
+    border: 1px solid #99D3F5;
+    border-radius: 4px;
+    padding: 4px 12px;
+    color: #1E88C7;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+}
+.file input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: 80px;
+    height: 28px;
+}
+/*----------------------*/
+.list-group-item input{
+    display: inline-block;
+    border: none;
+    outline: medium;
+    color: gray;
+    text-indent: 5px;
+}
+body{
+    padding: 50px 0;
+    position: relative;
+    bottom: 0;
+}
+#save{
+    position: fixed;
+    bottom: 0;
+}
+.list-group-item textarea{
+    resize: none;
+}
+.list-group-item .selected{
+    background: #5bc0de;
+}
+#more label{
+    margin: 0 10px 0 0;
+    font-weight: normal;
+}

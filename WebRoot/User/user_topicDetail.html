@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>用户首页_话题详情页</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../css/common.css"/>
+    <link rel="stylesheet" href="../css/circleTopicDetail.css"/>
+</head>
+<body>
+    <nav class="navbar navbar-fixed-top" role="navigation">
+        <div class="navbar-header">
+            <a href="javascript:;" class="navbar-brand glyphicon glyphicon-chevron-left"></a>
+            <span class="navbar-brand navbar-title"></span>
+            <a href="javascript:;" id="follow" class="navbar-brand glyphicon glyphicon-star-empty pull-right"
+               data-toggle="tooltip" data-placement="left"></a>
+        </div>
+    </nav>
+    <div id="topic-header">
+            <div class="media container">
+                <a class="media-left" href="#">
+                    <img class="media-object" src="../img/topic_header.jpg" alt="话题">
+                </a>
+                <div class="media-body">
+                    <h4 class="topic-title">#话题#</h4>
+                    <small class="topic-info">阅读：100<br>参与人数：100<br>
+                        发起者：<a href="nurseDetail.html"><span class="label label-warning">张三</span></a>
+                    </small>
+                </div>
+            </div>
+    </div>
+    <ul class="media-list">
+        <li class="article">
+            <div class="container">
+                <h4 class="article-header">
+                    <a href="#"><img class="publisher" src="../img/user_portrait_default.png" alt="头像"/></a>
+                    用户名
+                    <small>发表时间</small>
+                </h4>
+                <div>
+                    <p class="article-content">
+                        <a href="circleTopicDetail.html">#<span>话题</span>#</a>
+                        话题评论话题评论话题评论话题评论话题评论话题评论话题评论话题评论话题评论
+                        话题评论话题评论话题评论话题评论话题评论话题评论话题评论话题评论话题评论
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <img class="col-xs-4" src="../img/article-img.png" alt="文章图片"/>
+                <img class="col-xs-4" src="../img/article-img.png" alt="文章图片"/>
+                <img class="col-xs-4" src="../img/article-img.png" alt="文章图片"/>
+            </div>
+            <div class="social-contact container row">
+                <a href="#" class="glyphicon glyphicon-thumbs-up col-xs-4">100</a>
+                <a href="#" class="glyphicon glyphicon-comment col-xs-4">100</a>
+                <a href="#" class="glyphicon glyphicon-share-alt col-xs-4">转发</a>
+            </div>
+        </li>
+        <li class="article">
+            <div class="container">
+                <h4 class="article-header">
+                    <a href="#"><img class="publisher" src="../img/user_portrait_default.png" alt="头像"/></a>
+                    用户名
+                    <small>发表时间</small>
+                </h4>
+                <div>
+                    <p class="article-content">
+                        <a href="circleTopicDetail.html">#<span>话题</span>#</a>
+                        话题评论话题评论话题评论话题评论话题评论话题评论话题评论话题评论话题评论
+                        话题评论话题评论话题评论话题评论话题评论话题评论话题评论话题评论话题评论
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <img class="col-xs-4" src="../img/article-img.png" alt="文章图片"/>
+                <img class="col-xs-4" src="../img/article-img.png" alt="文章图片"/>
+                <img class="col-xs-4" src="../img/article-img.png" alt="文章图片"/>
+            </div>
+            <div class="social-contact container row">
+                <a href="#" class="glyphicon glyphicon-thumbs-up col-xs-4">100</a>
+                <a href="#" class="glyphicon glyphicon-comment col-xs-4">100</a>
+                <a href="#" class="glyphicon glyphicon-share-alt col-xs-4">转发</a>
+            </div>
+        </li>
+        <li class="article">
+            <div class="container">
+                <h4 class="article-header">
+                    <a href="#"><img class="publisher" src="../img/user_portrait_default.png" alt="头像"/></a>
+                    用户名
+                    <small>发表时间</small>
+                </h4>
+                <div>
+                    <p class="article-content">
+                        <a href="circleTopicDetail.html">#<span>话题</span>#</a>
+                        话题评论话题评论话题评论话题评论话题评论话题评论话题评论话题评论话题评论
+                        话题评论话题评论话题评论话题评论话题评论话题评论话题评论话题评论话题评论
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <img class="col-xs-4" src="../img/article-img.png" alt="文章图片"/>
+                <img class="col-xs-4" src="../img/article-img.png" alt="文章图片"/>
+                <img class="col-xs-4" src="../img/article-img.png" alt="文章图片"/>
+            </div>
+            <div class="social-contact container row">
+                <a href="#" class="glyphicon glyphicon-thumbs-up col-xs-4">100</a>
+                <a href="#" class="glyphicon glyphicon-comment col-xs-4">100</a>
+                <a href="#" class="glyphicon glyphicon-share-alt col-xs-4">转发</a>
+            </div>
+        </li>
+    </ul>
+    <form id="comment-box" class="container" role="form">
+        <div class="form-group">
+            <label for="my-comment">我的评论:</label><br>
+            <input type="text" class="form-control" id="my-comment" value="请输入评论">
+            <button type="submit" class="btn btn-default">发送</button>
+        </div>
+    </form>
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/jquery.cookie.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/circleTopicDetail.js"></script>
+</body>
+</html>

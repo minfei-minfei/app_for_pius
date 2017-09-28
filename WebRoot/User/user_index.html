@@ -1,0 +1,202 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>用户首页</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../css/common.css"/>
+    <link rel="stylesheet" href="../css/index_home.css"/>
+</head>
+<body>
+
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+                <div class="navbar-header">
+                    <a href="user_login.jsp" class="navbar-brand login-link"></a>
+                    <span class="navbar-brand navbar-title">首页</span>
+                </div>
+        </div>
+    </nav>
+    <div id="indexCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+        <!-- 轮播（Carousel）指标 -->
+        <ol class="carousel-indicators">
+            <li data-target="#indexCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#indexCarousel" data-slide-to="1"></li>
+            <li data-target="#indexCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- 轮播（Carousel）项目 -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="../img/slide1.png" alt="First slide" class="center-block">
+            </div>
+            <div class="item">
+                <img src="../img/slide2.png" alt="Second slide" class="center-block">
+            </div>
+            <div class="item">
+                <img src="../img/slide3.png" alt="Third slide" class="center-block">
+            </div>
+        </div>
+        <!-- 轮播（Carousel）导航 -->
+        <a class="carousel-control left" href="#indexCarousel"
+           data-slide="prev">&lsaquo;
+        </a>
+        <a class="carousel-control right" href="#indexCarousel"
+           data-slide="next">&rsaquo;
+        </a>
+    </div>
+
+    <div id="myOrder">
+        <!--<div class="well well-sm">我的订单
+            <a href="user_index_order.html" class="pull-right">查看更多&gt;&gt;</a>
+        </div>-->
+        <ul class="pagination row">
+            <li class="col-xs-4"><a href="user_index_order.html">
+                <span class="icon"></span>待支付
+            </a></li>
+            <li class="col-xs-4"><a href="user_index_order.html">
+                <span class="icon"></span>待受理
+            </a></li>
+            <li class="col-xs-4"><a href="user_index_order.html" >
+                <span class="icon"></span>待评价
+            </a></li>
+        </ul>
+    </div>
+    <div id="hotTopic">
+        <ul class="row">
+            <li class="col-xs-6">
+                <a href="circleTopicDetail.html">
+                    <img src="../img/topic-img.png" alt="话题"/>
+                    #话题#
+                </a>
+            </li>
+            <li class="col-xs-6">
+                <a href="circleTopicDetail.html">
+                    <img src="../img/topic-img.png" alt="话题"/>
+                    #话题#
+                </a>
+            </li>
+        </ul>
+        <ul class="row">
+            <li class="col-xs-6">
+                <a href="circleTopicDetail.html">
+                    <img src="../img/topic-img.png" alt="话题"/>
+                    #话题#
+                </a>
+            </li>
+            <li class="col-xs-6">
+                <a id="more-topic" href="user_index_circleTopic.html">
+                    <span class="icon"></span>
+                    更多热门话题
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div id="hotArticle">
+        <ul id="filter" class="nav nav-tabs row">
+            <li class="active col-xs-4">
+                <a href="javascript:;">热门</a>
+            </li>
+            <li class="col-xs-4">
+                <a href="javascript:;">关注</a>
+            </li>
+            <li class="col-xs-4">
+                <a href="javascript:;">我的</a>
+            </li>
+        </ul>
+        <div class="article">
+            <div class="container">
+                <h4 class="article-header">
+                    <a href="#"><img class="publisher" src="../img/nurse_portrait_default.png" alt="头像"/></a>
+                    文章标题
+                    <small>发表时间</small>
+                </h4>
+                <small class="article-info">浏览：转发：评论：</small>
+                <a href="circleArticleDetail.html">
+                    <p class="article-content">文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容
+                        文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容
+                    </p>
+                </a>
+            </div>
+            <a href="circleArticleDetail.html" class="row">
+                <img class="col-xs-4" src="../img/article-img.png" alt="文章图片"/>
+                <img class="col-xs-4" src="../img/article-img.png" alt="文章图片"/>
+                <img class="col-xs-4" src="../img/article-img.png" alt="文章图片"/>
+            </a>
+        </div>
+        <div class="article">
+            <div class="container">
+                <h4 class="article-header">
+                    <a href="#"><img class="publisher" src="../img/nurse_portrait_default.png" alt="头像"/></a>
+                    文章标题
+                    <small>发表时间</small>
+                </h4>
+                <small class="article-info">浏览：转发：评论：</small>
+                <a href="circleArticleDetail.html">
+                    <p class="article-content">文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容
+                        文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容
+                    </p>
+                </a>
+            </div>
+            <a href="circleArticleDetail.html" class="row">
+                <img class="col-xs-4" src="../img/article-img.png" alt="文章图片"/>
+                <img class="col-xs-4" src="../img/article-img.png" alt="文章图片"/>
+                <img class="col-xs-4" src="../img/article-img.png" alt="文章图片"/>
+            </a>
+        </div>
+        <div class="article">
+            <div class="container">
+                <h4 class="article-header">
+                    <a href="#"><img class="publisher" src="../img/nurse_portrait_default.png" alt="头像"/></a>
+                    文章标题
+                    <small>发表时间</small>
+                </h4>
+                <small class="article-info">浏览：转发：评论：</small>
+                <a href="circleArticleDetail.html">
+                    <p class="article-content">文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容
+                        文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容
+                    </p>
+                </a>
+            </div>
+            <a href="circleArticleDetail.html" class="row">
+                <img class="col-xs-4" src="../img/article-img.png" alt="文章图片"/>
+                <img class="col-xs-4" src="../img/article-img.png" alt="文章图片"/>
+                <img class="col-xs-4" src="../img/article-img.png" alt="文章图片"/>
+            </a>
+        </div>
+    </div>
+    <ul id="bottom-nav" class="pager">
+        <li class="active"><a href="user_index.html"><span class="glyphicon glyphicon-home"></span>首页</a></li>
+        <li><a href="user_index_nurse.jsp"><span class="glyphicon glyphicon-leaf"></span>护工</a></li>
+        <li><a href="user_index_circle.jsp"><span class="glyphicon glyphicon-globe"></span>圈子</a></li>
+        <li><a href="user_index_order.jsp"><span class="glyphicon glyphicon-list-alt"></span>订单</a></li>
+        <li><a href="user_index_me.html"><span class="glyphicon glyphicon-user"></span>我的</a></li>
+    </ul>
+
+    <!-- 协议弹出框 -->
+    <div class="modal fade" id="protocolModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">温馨提示</h4>
+                </div>
+                <div class="modal-body">&nbsp;&nbsp;只要您使用本APP平台服务，则本协议即对您产生约束，届时您不应以未阅读本协议的内容或者未获得本APP对您问询的解答等理由，主张本协议无效，或要求撤销本协议。
+                	您确认：本协议条款是处理双方权利义务的契约，始终有效，法律另有强制性规定或双方另有特别约定的，依其规定。 您承诺接受并遵守本协议的约定。如果您不同意本协议的约定，您应立即停止注册程序或停止使用本APP平台服务。
+                	本APP有权根据需要不定期地制订、修改本协议及/或各类规则，并在本APP平台公示，不再另行单独通知用户。变更后的协议和规则一经在网站公布，立即生效。如您不同意相关变更，应当立即停止使用本APP平台服务。
+                	您继续使用本APP平台服务的，即表明您接受修订后的协议和规则。
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" id="not-agree">不同意</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal" id="agree">同意</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal -->
+    </div>
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/jquery.cookie.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/user_index.js"></script>
+</body>
+</html>

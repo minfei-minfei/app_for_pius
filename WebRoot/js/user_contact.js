@@ -1,0 +1,9 @@
+$(function(){
+    //localStorage保存的数据决定下一页状态，如果点击的是编辑按钮，下一页显示老人完整信息
+    $(".glyphicon-edit").on("click",function(){
+        localStorage.setItem("contact_next","edit");
+    });
+    $(".glyphicon-plus").on("click",function(){
+        localStorage.setItem("contact_next","add");
+    });
+});

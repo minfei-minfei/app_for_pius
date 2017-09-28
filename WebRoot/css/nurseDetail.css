@@ -1,0 +1,119 @@
+.navbar{
+    color: white;
+}
+.navbar .glyphicon{
+    color: white;
+}
+/*页头*/
+#nurse_detail_header{
+    background: url(../img/nurse_detail_header_bg.jpg) no-repeat center;
+    background-size: cover;
+    color: white;
+    padding: 50px 0 30px 0;
+}
+#nurse_detail_header .media .media-object{
+    background: white;
+    width: 80px;
+    height: 80px;
+}
+#nurse_detail_header h4{
+    display: inline-block;
+    margin: 10px 0;
+}
+.star{
+    display: inline-block;
+    width: 120px;
+    height: 15px;
+    background: url(../img/star-matrix.gif) no-repeat;
+    text-align: right;
+}
+#nurse_comment .star{
+    width: 80px;
+}
+/*基本信息*/
+.well{
+    margin-bottom: 0;
+    padding: 10px;
+}
+blockquote{
+    margin-bottom: 0;
+}
+.icon{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+#nurse_detail_content p:nth-child(1) .icon{
+    background: url(../img/css_sprite.png) no-repeat -185px -66px;
+}
+#nurse_detail_content p:nth-child(2) .icon:nth-child(1){
+    background: url(../img/css_sprite.png) no-repeat -50px -40px;
+}
+#nurse_detail_content p:nth-child(2) .icon:nth-child(2){
+    background: url(../img/css_sprite.png) no-repeat -50px -10px;
+}
+#nurse_detail_content p:nth-child(2) .icon:nth-child(3){
+    background: url(../img/css_sprite.png) no-repeat -82px -11px;
+}
+/*文章*/
+.article .row{
+    margin: 0;
+}
+.article .col-xs-4{
+    padding: 2px;
+}
+.article .article-header{
+    margin-bottom: 0;
+}
+.article .article-content{
+    margin: 0;
+    color: #333;
+    /*溢出文本用省略号替代*/
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.article .publisher{
+    width: 25px;
+    border-radius: 50%;
+}
+/*话题*/
+.topic .media-object{
+    margin-top: 10px;
+}
+.topic .topic-header{
+    margin-bottom: 0;
+}
+.topic .topic-content{
+    margin: 0;
+    color: #333;
+    /*溢出文本用省略号替代*/
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.article,.topic{
+    background: white;
+    margin-bottom: 0;
+    border-bottom: 1px solid lightgray;
+}
+/*文章评论*/
+.media-list{
+    margin-bottom: 0;
+}
+.article-comment{
+    padding-top: 10px;
+    margin-top: 0;
+    border-bottom: 1px solid lightgray;
+    background: white;
+}
+.article-comment .media-object{
+    width: 25px;
+    border-radius: 50%;
+}
+.article-comment .media-heading{
+    font-weight: bolder;
+}

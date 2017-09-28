@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>发表文章/话题</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../css/common.css"/>
+    <link rel="stylesheet" href="../css/publish.css"/>
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="javascript:;" class="navbar-brand">取消</a>
+                <div id="circle-nav" class="navbar-title">
+                    <ul class="pagination">
+                        <li class="active"><a href="user_index_circle.html">文章</a></li>
+                        <li><a href="user_index_circleTopic.html">话题</a></li>
+                    </ul>
+                </div>
+                <a href="javascript:;" class="navbar-brand pull-right" id="submit">发表</a>
+            </div>
+        </div>
+    </nav>
+    <form id="publish" class="container" name="publish" action="user_publish.jsp" method="post">
+        <input type="text" class="form-control" name="atcTit" value="请输入标题"/>
+        <textarea name="atcCont" rows="4" class="form-control">说点什么...</textarea>
+        <div class="upload-picture col-xs-4">
+            <img src="../img/publish_upload_img.png" alt="上传照片" />
+            <input class="upload" type="file" name="atcPic" accept="image/*" multiple>
+        </div>
+    </form>
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/jquery.cookie.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/publish.js"></script>
+    
+</body>
+</html>

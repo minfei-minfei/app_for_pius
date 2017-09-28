@@ -1,0 +1,115 @@
+body{
+    /*�������ڵ�����*/
+    padding-top: 70px;
+    padding-bottom: 70px;
+    /*����������Ļ*/
+    position: relative;
+    bottom: 0;
+}
+/*���˼��*/
+#order-info .personal-intro{
+    /*����ı���ʡ�Ժ����*/
+    display: block;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    /*-------------------*/
+    margin-bottom: 0;
+}
+/*����֧��*/
+#pay{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+#pay .list-group{
+    margin-bottom: 0;
+}
+#mask{
+    width: 100%;
+    flex-grow: 1;
+    background: gray;
+    opacity: 0.5;
+}
+#pay .pay-way input{
+    margin-top: 10px;
+}
+/*  �޸������ؼ� */
+/*�Ƴ����¼�ͷ*/
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+}
+/*�Ƴ���水ť*/
+input[type="date"]::-webkit-clear-button{
+    display:none;
+}
+/*�Ƴ�������ɫ*/
+input{
+    outline: none;
+}
+/*ҳ��*/
+#user-order-footer .navbar-brand{
+    background: pink;
+    color: white;
+}
+#user-order-footer .nav{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+#user-order-footer .nav li{
+    flex-grow: 1;
+    text-align: center;
+}
+#pay-now,#pull-cart{
+    padding: 0;
+    height: 100%;
+    line-height: 50px;
+}
+/*ͼ��*/
+.icon{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+#order-choice li:nth-child(1) .icon{
+    background: url(../img/css_sprite.png) no-repeat -116px -94px;
+}
+#order-choice li:nth-child(2) .icon{
+    background: url(../img/css_sprite.png) no-repeat -82px -93px;
+}
+#order-choice li:nth-child(3) .icon{
+    background: url(../img/css_sprite.png) no-repeat -16px -64px;
+}
+#order-choice li:nth-child(4) .icon{
+    background: url(../img/css_sprite.png) no-repeat -48px -94px;
+}
+#service .icon:nth-child(1){
+    background: url(../img/css_sprite.png) no-repeat -150px -94px;
+}
+#service .icon:nth-child(2){
+    background: url(../img/css_sprite.png) no-repeat -16px -8px;
+}
+.alipay{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url(../img/css_sprite.png) no-repeat -14px -157px;
+    vertical-align: middle;
+}
+.wechat{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url(../img/css_sprite.png) no-repeat -68px -157px;
+    vertical-align: middle;
+}

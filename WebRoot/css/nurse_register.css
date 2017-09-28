@@ -1,0 +1,130 @@
+body{
+    padding: 70px 0 46px 0;
+}
+/*警告框*/
+#myAlert{
+    position: fixed;
+    width: 100%;
+    top: 50px;
+    z-index: 1;
+    display: none;
+}
+/*上传头像*/
+.upload-picture{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.upload-picture img{
+    width: 80px;
+    height: 80px;
+    border: 1px solid lightgray;
+}
+/*修改上传照片按钮*/
+.file {
+    position: relative;
+    display: inline-block;
+    background: #D0EEFF;
+    border: 1px solid #99D3F5;
+    border-radius: 4px;
+    padding: 4px 12px;
+    color: #1E88C7;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+}
+.file input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: 80px;
+}
+/*上传证件照*/
+.protector-upload{
+    position: relative;
+    width: 100%;
+}
+.protector-upload img{
+    width: 100%;
+}
+.protector-upload input{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+/*注册按钮*/
+button[type=submit]{
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+}
+/*基本信息*/
+/*去除input边框*/
+input.form-control{
+    border: 0;
+    box-shadow: none;
+    display: inline;
+    width: 80%;
+    height: 22px;
+}
+#nurse-basic-info label.radio-inline{
+    padding-top: 0;
+    margin-left: 10px;
+}
+#nurse-service-info select{
+    display: inline-block;
+    width: 40%;
+}
+/*重写价格输入框组的样式*/
+.list-group-item .col-xs-3{
+    padding: 0;
+}
+#service-price input{
+    margin: 0;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    width: 100%;
+    height: 28px;
+    display: inline-block;
+}
+/*小图标*/
+.icon{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+.sex{
+    background: url(../img/css_sprite.png) no-repeat -185px -66px;
+}
+.id-card{
+    background: url(../img/css_sprite.png) no-repeat -50px -40px;
+}
+/*账号密码*/
+.checked,.checked-false{
+    position: absolute;
+    top: 15px;
+    right: 5px;
+    display: none;
+    width: 18px;
+    height: 18px;
+}
+.checked{
+    background: url(../img/css_sprite.png) no-repeat -48px -8px;
+}
+.checked-false{
+    background: url(../img/css_sprite.png) no-repeat -80px -10px;
+}
+/*小眼睛*/
+.glyphicon-eye-open,.glyphicon-eye-close{
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    display: none;
+}
+#nurse-register input[name=nursePsd2]{
+    width: 70%;
+}

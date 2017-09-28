@@ -1,0 +1,13 @@
+body{
+    padding: 90px 0 50px 0;
+}
+.navbar{
+    margin: 0;
+}
+.media .media-object{
+    border-radius: 50%;
+}
+.media .price{
+    color: red;
+    margin-bottom: 0;
+}

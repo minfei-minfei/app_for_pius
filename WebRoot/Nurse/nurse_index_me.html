@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>护工首页_我的界面</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../css/common.css"/>
+    <link rel="stylesheet" href="../css/index_me.css"/>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="nurse_logWeb.jsp" class="navbar-brand login-link"></a>
+            <span class="navbar-brand navbar-title">我的</span>
+            <a href="../choose.html" class="navbar-brand glyphicon glyphicon-log-out pull-right" style="padding-right: 0"></a>
+        </div>
+    </div>
+</nav>
+<div class="jumbotron">
+    <div class="container">
+        <img src="../img/nurse_portrait_default.png" alt="头像" />
+        <br>
+        <p class="label label-info" id="index-name">用户名</p>
+    </div>
+</div>
+<div id="me-page" class="container">
+    <ul class="list-group">
+        <li class="list-group-item"><a href="javascript:;">我的级别 <span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+        <li class="list-group-item"><a href="javascript:;">我的钱包 <span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+        <li class="list-group-item"><a href="javascript:;">我的关注 <span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+        <li class="list-group-item">
+            <a href="javascript:;">我的消息
+                <span class="badge">1</span>
+                <span class="glyphicon glyphicon-chevron-right pull-right"></span>
+            </a>
+        </li>
+        <li class="list-group-item"><a href="javascript:;">版本 <span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+        <li class="list-group-item"><a href="javascript:;">设置 <span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+    </ul>
+</div>
+<div class="container">
+	<button type="submit" class="btn btn-primary btn-lg btn-block"
+	data-toggle="modal" data-target="#logout">退出登录</button>
+</div>
+<!-- 注销弹出框 -->
+    <div class="modal fade" id="logout" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    
+                </div>
+                <div class="modal-body">
+                	<h4 class="modal-title">是否确认退出？</h4>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                    <a href="nurse_logout.jsp" class="btn btn-primary" >确认</a>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal -->
+    </div>
+<ul id="bottom-nav" class="pager">
+    <li><a href="nurse_index.html"><span class="glyphicon glyphicon-home"></span>首页</a></li>
+    <li><a href="nurse_index_circle.jsp"><span class="glyphicon glyphicon-globe"></span>圈子</a></li>
+    <li><a href="nurse_index_order.jsp"><span class="glyphicon glyphicon-list-alt"></span>订单</a></li>
+    <li class="active"><a href="nurse_index_me.html"><span class="glyphicon glyphicon-user"></span>我的</a></li>
+</ul>
+
+<script src="../js/jquery-1.12.4.min.js"></script>
+<script src="../js/jquery.cookie.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/common.js"></script>
+</body>
+</html>

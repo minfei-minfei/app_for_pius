@@ -1,0 +1,43 @@
+body{
+    padding-top: 50px;
+}
+#search-group{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 48px;
+    width: 80%;
+}
+#search-group input{
+    border: 0;
+    border-bottom: 1px solid gray;
+    color: lightgray;
+    background: inherit;
+    font-size: 12px;
+    outline: none;
+    width: 80%;
+}
+#search-group .glyphicon-remove-circle{
+    width: 14px;
+    height: 14px;
+    margin-left: -20px;
+    display: none;
+}
+/*搜索结果*/
+#search-result a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: inherit;
+    /*单行溢出文本*/
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+}
+#search-result img{
+    width: 20px;
+    height: 20px;
+}
+#search-result small{
+    color: lightgray;
+}

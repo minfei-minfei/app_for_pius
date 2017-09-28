@@ -1,0 +1,51 @@
+#order-info{
+	position: relative;
+}
+#order-accept{
+	position: absolute;
+	right: 5px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.tooltip{
+	z-index: 0;
+}
+#orderAccept .modal-dialog{
+	z-index: 1;
+}
+#orderAccept .modal-header{
+	border-bottom: 0;
+}
+#orderAccept .modal-footer{
+	border-top: 0;
+	text-align: center;
+}
+#orderAccept .modal-body{
+	text-align: center;
+}
+#orderUser img{
+	width: 25px;
+	height: 25px;
+}
+#accept,#not-accept{
+	text-align: center;
+}
+.media{
+	background: #f8f8f8;
+	padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
