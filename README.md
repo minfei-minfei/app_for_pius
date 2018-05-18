@@ -1,4 +1,2 @@
 # app_for_pius
-老年护工 APP
-![image](https://github.com/minfei-minfei/app_for_pius/blob/master/images/%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95.png)
-
+该项目是为了解决老年人找护工困难的问题，希望为需要照顾的老年人提供一个方便快捷的平台，线上寻找符合条件的护工，线下服务。该项目的技术主要是使用 bootstarp 和 jquery 完成 app 的界面设计和交互响应，使用javaweb实现前后台交互和数据库操作。实现的功能有，用户和护工的登陆和注册，护工的信息检索和查询，文章和话题的发表和阅览，预约下单，订单管理，添加联系人等。
